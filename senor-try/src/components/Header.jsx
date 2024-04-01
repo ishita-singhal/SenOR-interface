@@ -1,7 +1,7 @@
 import './Header.css';
 import Button from './Button';
 import HeaderSocials from './HeaderSocials';
-import illustration1 from '../assets/ggood.png'
+import illustration1 from '../assets/good.png'
 
 const Header = () => {
   return (
