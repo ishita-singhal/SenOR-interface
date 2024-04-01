@@ -1,0 +1,242 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Chatbot with Sidebar</title>
+</head>
+<body>
+  <div class="wrapper">
+    <!-- SenOR Legal Advisor Sidebar -->
+    <div class="left-sidebar">
+      <div class="header">👨🏻‍⚖️Legal Advisor </div>
+      <div class="divider"></div>
+      <div class="description">
+        This app is a smart legal chatbot that is integrated into an easy-to-use platform. This would give lawyers instant access to legal information and remove the need for laborious manual research in books or regulations using the power of Large Language Models.
+        It not only grants lawyers instant access to legal information but also enhances their efficiency by eliminating the arduous manual research process.
+      </div>
+      <div class="divider"></div>
+      <div class="features">Features</div>
+      <div class="feature-list">
+        <ul>
+          <li>Users can adjust token length to control the length of generated responses, allowing for customization based on specific requirements or constraints.</li>
+          <li>Users can adjust the temp to control response randomness. Higher values (e.g., 0.5) produce diverse but less focused responses, while low values (e.g., 0.1) result in more focused but less varied answers.</li>
+        </ul>
+      </div>
+     
+      
+    </div>
+
+    <div class="wrapper">
+        <!-- SenOR Legal Advisor Sidebar -->
+        <div class="right-sidebar">
+          <div class="header">🙇🏻 About us</div>
+          <!-- <div class="description">
+            This app is a smart legal chatbot that is integrated into an easy-to-use platform. This would give lawyers
+            instant access to legal information and remove the need for laborious manual research in books or regulations using the power
+            of Large Language Models
+          </div>
+          <div class="divider"></div>
+          <div class="features">Features</div>
+          <div class="feature-list">
+            <ul>
+              <li>Users can adjust token length to control the length of generated responses, allowing for customization based on specific requirements or constraints.</li>
+              <li>Users can adjust the temperature to control response randomness. Higher values (e.g., 0.5) produce diverse but less focused responses, while lower values (e.g., 0.1) result in more focused but less varied answers.</li>
+            </ul>
+          </div> -->
+          <!-- <div class="divider"></div>
+          <div class="advanced-features">Advanced Features</div>
+          <div class="slider-label">Token Max Length</div>
+          <input type="range" min="128" max="1024" value="128" step="128" class="slider" id="tokenLength">
+          <div class="slider-label">Temperature</div>
+          <input type="range" min="0.0" max="1.0" value="0.1" step="0.1" class="slider" id="temperature"> -->
+
+          <div class="divider"></div>
+         
+          <div class="description">
+            This website is designed to empower all the citizens with comprehensive Indian legal knowledge, safeguarding them from potential exploitation by those in positions of power. Its mission is to inform and protect, ensuring individuals have access to valuable insights about laws, fostering a more informed and just society. 
+          </div>
+          <div class="divider"></div>
+          <div class="features">Team-404Found</div>
+
+          <div class="feature-list">
+            <ul>
+              <li>Anish V V</li>
+              <li>Pooja Harihar</li>
+              <li>Ishita Singhal</li>
+            </ul>
+          </div>
+          <div class="divider"></div>
+<div class="advanced-features">Advanced Features</div>
+
+<!-- Token Max Length Slider -->
+<div>
+
+
+<div class="slider-label">
+  <span id="tokenMinLabel">128</span>&nbsp; &nbsp;
+  Token Max_Len &nbsp; &nbsp;
+  <span id="tokenMaxLabel">1024</span>
+</div>
+<input type="range" min="128" max="1024" value="128" step="128" class="slider" id="tokenLength">
+
+<div class="slider-value" id="tokenValue">128</div>
+</div>
+
+<!-- Temperature Slider -->
+<div class="slider-label">
+  <span id="tempMinLabel">0.0</span>&nbsp; &nbsp; &nbsp; &nbsp;
+  Temperature &nbsp; &nbsp; &nbsp; &nbsp;
+  <span id="tempMaxLabel">1.0</span>
+</div>
+<input type="range" min="0.0" max="1.0" value="0.1" step="0.1" class="slider" id="temperature">
+<div class="slider-value" id="tempValue">0.1</div>
+
+        </div>
+
+    <!-- Chatbot Content -->
+    <div id="chatbox">
+      <div id="header">📖SenOR📖</div>
+      <div id="chatlogs"></div>
+      <div id="userInput">
+        <textarea id="inputMessage" placeholder="Type your message..." oninput="adjustTextareaHeight()" onkeypress="sendMessageOnEnter(event)"></textarea>
+        <button id="sendButton" onclick="sendMessage()">Send</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- ... (your existing head content) ... -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Chatbot with Sidebar</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- SenOR Legal Advisor Sidebar -->
+
+        <div class="left-sidebar">
+            <div class="header">👨🏻‍⚖️Legal Advisor </div>
+            <div class="divider"></div>
+            <div class="description">
+                This app is a smart legal chatbot that is integrated into an easy-to-use platform. This would give
+                lawyers instant access to legal information and remove the need for laborious manual research in books
+                or regulations using the power of Large Language Models.
+                It not only grants lawyers instant access to legal information but also enhances their efficiency by
+                eliminating the arduous manual research process.
+            </div>
+            <div class="divider"></div>
+            <div class="features">Features</div>
+            <div class="feature-list">
+                <ul>
+                    <li>Users can adjust token length to control the length of generated responses, allowing for
+                        customization based on specific requirements or constraints.</li>
+                    <li>Users can adjust the temp to control response randomness. Higher values (e.g., 0.5) produce
+                        diverse but less focused responses, while low values (e.g., 0.1) result in more focused but less
+                        varied answers.</li>
+                </ul>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <!-- SenOR Legal Advisor Sidebar -->
+        <div class="right-sidebar">
+            <!-- ... (your existing right-sidebar content) ... -->
+            <div class="header">🙇🏻 About us</div>
+            <div class="divider"></div>
+
+            <div class="description">
+                This website is designed to empower all the citizens with comprehensive Indian legal knowledge,
+                safeguarding them from potential exploitation by those in positions of power. Its mission is to inform
+                and protect, ensuring individuals have access to valuable insights about laws, fostering a more informed
+                and just society.
+            </div>
+            <div class="divider"></div>
+            <div class="features">Team-404Found</div>
+
+            <div class="feature-list">
+                <ul>
+                    <li>Anish V V</li>
+                    <li>Pooja Harihar</li>
+                    <li>Ishita Singhal</li>
+                </ul>
+            </div>
+            <div class="divider"></div>
+            <div class="advanced-features">Advanced Features</div>
+
+            <!-- Token Max Length Slider -->
+            <div>
+                <form id="userForm">
+                    <div class="slider-label">
+                        <span id="tokenMinLabel">128</span>&nbsp; &nbsp;
+                        Token Max_Len &nbsp; &nbsp;
+                        <span id="tokenMaxLabel">1024</span>
+                    </div>
+                    <input type="range" min="128" max="1024" value="128" step="128" class="slider" id="tokenLength"
+                        name="max_length">
+                    <div class="slider-value" id="tokenValue">128</div>
+
+                    <!-- Temperature Slider -->
+                    <div class="slider-label">
+                        <span id="tempMinLabel">0.0</span>&nbsp; &nbsp; &nbsp; &nbsp;
+                        Temperature &nbsp; &nbsp; &nbsp; &nbsp;
+                        <span id="tempMaxLabel">1.0</span>
+                    </div>
+                    <input type="range" min="0.0" max="1.0" value="0.1" step="0.1" class="slider" id="temperature"
+                        name="temp">
+                    <div class="slider-value" id="tempValue">0.1</div>
+
+                    <button type="button" onclick="submitForm()">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- ... (your existing chatbox content) ... -->
+    <div id="chatbox">
+        <div id="header">📖SenOR📖</div>
+        <div id="chatlogs"></div>
+        <div id="userInput">
+            <textarea id="inputMessage" placeholder="Type your message..." oninput="adjustTextareaHeight()"
+                onkeypress="sendMessageOnEnter(event)"></textarea>
+            <button id="sendButton" onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+    </div>
+
+    </div>
+    <script src="script.js"></script>
+    <script>
+        function submitForm() {
+            // Get user input values
+            const formData = new FormData(document.getElementById('userForm'));
+
+            // Make a POST request to the server
+            fetch('/get_answer', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                },
+                body: new URLSearchParams(formData),
+            })
+                .then(response => response.json())
+                .then(data => {
+                    // Display the answer
+                    document.getElementById('answerDisplay').innerText = data.answer;
+                });
+        }
+    </script>
+</body>
+
+</html>
