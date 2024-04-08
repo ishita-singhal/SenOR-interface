@@ -4,7 +4,7 @@ import item2 from '../assets/ishita.jpg';
 import item3 from '../assets/janhvi.jpg'
 import item4 from '../assets/pooja.jpg'
 import {BsGithub} from "react-icons/bs";
-import {FiLink} from "react-icons/fi";
+import {BsLinkedin} from "react-icons/bs";
 
 const data =[
   {
@@ -58,7 +58,7 @@ const Projects = () => {
           <h3>{title}</h3>
           <div className='button_proj'>          
           <a href={github} className='btn'>GitHub <BsGithub/></a>
-          <a href={demo} target='_blank' rel="noreferrer" className='btn btn-primary'>LinkedIn <FiLink/></a>
+          <a href={demo} target='_blank' rel="noreferrer" className='btn btn-primary'>LinkedIn <BsLinkedin/></a>
       </div>
 </article>
     )
