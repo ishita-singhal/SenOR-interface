@@ -11,7 +11,7 @@ const Contact = () => {
     <Button/>
     </div>
     <footer>
-      <p className='footer_p'>@<span>Team SenOR</span>| All rights reserved.</p>
+      <p className='footer_p'>@<span>Team SenOR</span> | All rights reserved.</p>
     </footer>
     </section>
   )
