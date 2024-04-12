@@ -13,7 +13,7 @@ const data =[
     title:'Anish VV',
     text:'A platform that provides users to converse over the globe though a ChatRoom.Further Users can add notes, thoughts and espy Graph of Emotions, Word Cloud and track Mental Health through it.Uses Socket.io for ChatRoom and Node JS, Express JS for implementing client and server sides.React JS and Tailwind CSS for applications UI .HTML and Pure JS for Mental Health implementation.',
     github:'https://github.com/anish2105',
-    demo:'NA'
+    demo:'https://www.linkedin.com/in/anishvvantagodi/'
   },
   {
     id: 2,
