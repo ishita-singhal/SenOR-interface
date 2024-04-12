@@ -14,38 +14,38 @@ const Journey = () => {
    <VerticalTimeline>
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
-    date="2023"
+    date="1"
     iconStyle={{ background: 'var( --color-bg-variant)', color: 'var( --color-white)' }}
     icon={<MdWork/>}
-  ><h3 className="vertical-timeline-element-title">KM UnoTag Pvt Ltd.</h3>
-  <h4 className="vertical-timeline-element-subtitle">SDE Intern</h4>
+  ><h3 className="vertical-timeline-element-title">TOKEN LENGTH</h3>
+  {/* <h4 className="vertical-timeline-element-subtitle">SDE Intern</h4> */}
     <p>
-    A product-based startup Unomok is an incentive gamification platform that also provides notification management for customer service.
+    Users can adjust token length to control the length of generated responses, allowing for customization based on specific requirements or constraints.
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
-    date="2020-2024"
+    date="2"
     iconStyle={{ background: 'var( --color-bg-variant)', color: 'var( --color-white)' }}
     icon={<FaUniversity/>}
-  ><h3 className="vertical-timeline-element-title">Bangalore Institute of Technology</h3>
-<h4 className="vertical-timeline-element-subtitle">Bangalore, Karnataka</h4>
+  ><h3 className="vertical-timeline-element-title">TEMPERATURE</h3>
+{/* <h4 className="vertical-timeline-element-subtitle">Bangalore, Karnataka</h4> */}
     <p>
-    B.E. in Information Science and Engineering | CGPA: 9.26
+    Users can adjust the temp to control response randomness. Higher values (e.g., 0.5) produce diverse but less focused responses, while low values (e.g., 0.1) result in more focused but less varied answers.
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
-    date="2018-2020"
+    date="3"
     iconStyle={{ background: 'var( --color-bg-variant)', color: 'var( --color-white)' }}
     icon={<MdSchool/>}
-  ><h3 className="vertical-timeline-element-title">Sri Chaitanya Techno School</h3>
-  <h4 className="vertical-timeline-element-subtitle">VisakhaPatnam,Andhra Pradesh</h4>
+  ><h3 className="vertical-timeline-element-title">DATASET</h3>
+  {/* <h4 className="vertical-timeline-element-subtitle">VisakhaPatnam,Andhra Pradesh</h4> */}
     <p>
-    Senior Secondary School | Percentage: 94.4%
+    Empowering users with knowledge, our feature section utilizes a dataset of fundamental legal rights, ensuring comprehensive understanding and informed decision-making.
     </p>
   </VerticalTimelineElement>
-  <VerticalTimelineElement
+  {/* <VerticalTimelineElement
     className="vertical-timeline-element--education"
     date="2018"
     iconStyle={{ background: 'var( --color-bg-variant)', color: 'var( --color-white)' }}
@@ -55,7 +55,7 @@ const Journey = () => {
     <p>
     High School | Percentage: 92.2%
     </p>
-  </VerticalTimelineElement>
+  </VerticalTimelineElement> */}
   </VerticalTimeline>
     </div>
   )

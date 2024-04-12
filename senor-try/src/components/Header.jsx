@@ -10,7 +10,7 @@ const Header = () => {
     <h4>We are presenting</h4>
     <h1>SenOR legal advisor using LLM</h1>
     <h3 className="text-light"> "SenOR" represents "Sentinel of Rights," </h3>
-    <br/>Symbolizing a digital guardian dedicated to safeguarding and advocating for <span>legal rights</span>
+    <br/>Symbolizing a digital guardian dedicated to safeguarding and advocating for <span>legal rights</span> 
     <Button/>
     </div>
     <div className='right_portion'>
