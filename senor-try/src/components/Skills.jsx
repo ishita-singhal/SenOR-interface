@@ -13,7 +13,7 @@ const Skills = () => {
           <h4>(But you can also call me)</h4>
           <br />
           <h3>
-            Your Sukh Dukh ka Sathi 👩‍💻 from <span>Bangalore, India.</span>
+            Your Defender Of Rights 👩‍💻 from <span>Bangalore, India.</span>
           </h3>
           <br></br>
           <h4>This app is a smart legal chatbot that is integrated into an easy-to-use platform. This would give lawyers instant access to legal information and remove the need for laborious manual research in books or regulations using the power of Large Language Models. It not only grants lawyers instant access to legal information but also enhances their efficiency by eliminating the arduous manual research process.</h4>
